@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shoplet</string>
+
+    <string name="settings_label">设置</string>
+    <string name="addshop_label">添加商店</string>
+    <string name="login_label">登录</string>
+    <string name="registration_label">注册</string>
+    <string name="account_label">帐户</string>
+    <string name="loginregister_label">登录 / 注册</string>
+    <string name="signout_label">登出</string>
+    <string name="changepassword_label">更改密码</string>
+    <string name="shopname_label">商店名称</string>
+    <string name="camera_label">相机</string>
+    <string name="gallery_label">画廊</string>
+    <string name="call_label">呼叫</string>
+    <string name="locate_label">定位</string>
+    <string name="about_label">关于</string>
+
+    <string name="username_tag">用户名:</string>
+    <string name="password_tag">密码:</string>
+    <string name="image_tag">图片:</string>
+    <string name="name_tag">名称:</string>
+    <string name="contactno_tag">联系电话:</string>
+    <string name="postalcode_tag">邮政编码: S</string>
+    <string name="unitno_tag">单位编号: #</string>
+    <string name="category_tag">类别:</string>
+    <string name="description_tag">描述:</string>
+    <string name="currentpassword_tag">当前密码:</string>
+    <string name="newpassword_tag">新密码:</string>
+    <string name="confirmpassword_tag">确认密码:</string>
+    <string name="confirmnewpassword_tag">确认新密码:</string>
+
+    <string name="notamember_text">非会员?</string>
+    <string name="signup_u_text"><u>注册</u></string>
+    <string name="register_text">寄存器</string>
+    <string name="selectcategory_text">&#060;选择类别&#062;</string>
+    <string name="information_text">信息</string>
+    <string name="indigo_text">靛青</string>
+    <string name="red_text">红</string>
+    <string name="purple_text">紫色</string>
+    <string name="blue_text">蓝色</string>
+    <string name="green_text">Green</string>
+    <string name="amber_text">琥珀色</string>
+    <string name="bluegrey_text">蓝灰色</string>
+    <string name="requirecamera_text">需要访问摄像机权限</string>
+    <string name="requirestorage_text">需要访问存储权限</string>
+    <string name="requirecall_text">需要通话权限</string>
+    <string name="invalidpostalcode_text">邮政编码无效</string>
+    <string name="normal_text">正常</string>
+    <string name="hybrid_text">混合</string>
+    <string name="satellite_text">卫星</string>
+    <string name="terrain_text">地形</string>
+    <string name="none_text">没有</string>
+    <string name="about_text">免责声明：这是一个学校项目。不要使用真实凭证。\n\n随着Shoplet，你可以买更少的少！\n随时随地找到价格便宜的商店！\n在你上班的路上，到学校还是在排队等候。\n只需浏览类别，找到您想要的商店，并在那里进行。\n如果你有一个隐藏的宝石，你想分享，只需要一张照片，添加一个描述，你完成了。\n总有更多隐藏的宝石等待被发现，这么多的本地企业被发现！\n你在等什么？现在开始！</string>
+    <string name="registrationsuccess_text">注册成功</string>
+    <string name="usernameexists_text">此用户名已存在</string>
+    <string name="passwordmismatch_text">密码不匹配</string>
+    <string name="missinginfo_text">丢失的信息</string>
+    <string name="defaulterror_text">错误：出错</string>
+    <string name="loginsuccess_text">登录成功</string>
+    <string name="unabletologin_text">无法登入</string>
+    <string name="invalidinfo_text">错误：提供的信息无效</string>
+    <string name="shopadded_text">商店已添加</string>
+    <string name="shopnameused_text">错误：商店名称已在使用中</string>
+    <string name="accountupdated_text">帐户已更新</string>
+    <string name="passwordempty_text">密码不能为空</string>
+    <string name="wrongpassword_text">密码错误</string>
+    <string name="unabletoconnect_text">无法连接到服务器</string>
+    <string name="unabletoconnectcache_text">无法连接到服务器。正在尝试从缓存加载。</string>
+
+    <string name="zero_text">0</string>
+    <string name="one_text">1</string>
+    <string name="two_text">2</string>
+    <string name="three_text">3</string>
+    <string name="four_text">4</string>
+    <string name="five_text">5</string>
+    <string name="six_text">6</string>
+
+    <string name="shopname_placeholder">&#060;商店名称&#062;</string>
+    <string name="shopcategory_placeholder">&#060;商店类别&#062;</string>
+    <string name="shopdescription_placeholder">&#060;商店描述&#062;</string>
+    <string name="contactno_placeholder">&#060;联系电话&#062;</string>
+    <string name="postalcode_placeholder">&#060;邮政编码&#062;</string>
+    <string name="unitno_placeholder">&#060;单位编号&#062;</string>
+    <string name="username_placeholder">&#060;用户名&#062;</string>
+    <string name="categoryname_placeholder">&#060;分类名称&#062;</string>
+
+    <string name="settings_title">设置</string>
+</resources>

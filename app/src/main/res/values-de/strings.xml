@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shoplet</string>
+
+    <string name="settings_label">Einstellungen</string>
+    <string name="addshop_label">Geschäft hinzufügen</string>
+    <string name="login_label">Anmeldung</string>
+    <string name="registration_label">Registrieren</string>
+    <string name="account_label">Konto</string>
+    <string name="loginregister_label">Anmelden / Registrieren</string>
+    <string name="signout_label">Ausloggen</string>
+    <string name="changepassword_label">Passwort ändern</string>
+    <string name="shopname_label">Laden Name</string>
+    <string name="camera_label">Kamera</string>
+    <string name="gallery_label">Galerie</string>
+    <string name="call_label">Anruf</string>
+    <string name="locate_label">Lokalisieren</string>
+    <string name="about_label">Über</string>
+
+    <string name="username_tag">Benutzername:</string>
+    <string name="password_tag">Passwort:</string>
+    <string name="image_tag">Bild:</string>
+    <string name="name_tag">Name:</string>
+    <string name="contactno_tag">Kontakt:</string>
+    <string name="postalcode_tag">Postleitzahl: S</string>
+    <string name="unitno_tag">Stückzahl: #</string>
+    <string name="category_tag">Kategorie:</string>
+    <string name="description_tag">Beschreibung:</string>
+    <string name="currentpassword_tag">Aktuelles Passwort:</string>
+    <string name="newpassword_tag">Neues Kennwort:</string>
+    <string name="confirmpassword_tag">Bestätige das Passwort:</string>
+    <string name="confirmnewpassword_tag">Bestätige neues Passwort:</string>
+
+    <string name="notamember_text">Kein Mitglied?</string>
+    <string name="signup_u_text"><u>Anmelden</u></string>
+    <string name="register_text">Neu registrieren</string>
+    <string name="selectcategory_text">&#060;Kategorie wählen&#062;</string>
+    <string name="information_text">Information</string>
+    <string name="indigo_text">Indigo</string>
+    <string name="red_text">Rot</string>
+    <string name="purple_text">Lila</string>
+    <string name="blue_text">Blau</string>
+    <string name="green_text">Grün</string>
+    <string name="amber_text">Bernstein</string>
+    <string name="bluegrey_text">Blau grau</string>
+    <string name="requirecamera_text">Zugriffsberechtigung erforderlich</string>
+    <string name="requirestorage_text">Zugriffsberechtigung erforderlich</string>
+    <string name="requirecall_text">Anrufberechtigung erforderlich</string>
+    <string name="invalidpostalcode_text">Ungültige Postleitzahl</string>
+    <string name="normal_text">Normal</string>
+    <string name="hybrid_text">Hybrid</string>
+    <string name="satellite_text">Satellitenfernsehen</string>
+    <string name="terrain_text">Terrain</string>
+    <string name="none_text">Keiner</string>
+    <string name="about_text">HAFTUNGSAUSSCHLUSS: Dies ist ein Schulprojekt. Verwenden Sie keine wirklichen Anmeldeinformationen.\n\nMit Shoplet können Sie mehr mit weniger kaufen!\nFinden Sie Geschäfte mit Schnäppchenpreisen jederzeit und überall!\nAuf dem Weg zur Arbeit, zur Schule oder beim Warten in der Schlange.\nBlättern Sie einfach durch die Kategorien, finden Sie den Laden, den Sie wollen und machen Sie Ihren Weg dorthin.\nWenn Sie ein verstecktes Juwel haben, das Sie teilen möchten, nehmen Sie einfach ein Foto, fügen Sie eine Beschreibung hinzu und Sie sind fertig.\nEs gibt immer mehr versteckte Edelsteine, die darauf warten, gefunden zu werden und so viele lokale Unternehmen zu entdecken!\nAuf was wartest du? Jetzt beginnen!</string>
+    <string name="registrationsuccess_text">Registrierung erfolgreich</string>
+    <string name="usernameexists_text">Benutzername existiert bereits</string>
+    <string name="passwordmismatch_text">Passwörter stimmen nicht überein</string>
+    <string name="missinginfo_text">Fehlende Information</string>
+    <string name="defaulterror_text">Fehler: Es ist ein Fehler aufgetreten</string>
+    <string name="loginsuccess_text">Einloggen erfolgreich</string>
+    <string name="unabletologin_text">Anmeldung nicht möglich</string>
+    <string name="invalidinfo_text">Fehler: Ungültige Information</string>
+    <string name="shopadded_text">Shop hinzugefügt</string>
+    <string name="shopnameused_text">Fehler: Der Shopname wird bereits verwendet</string>
+    <string name="accountupdated_text">Konto aktualisiert</string>
+    <string name="passwordempty_text">Passwort kann nicht leer sein</string>
+    <string name="wrongpassword_text">Falsches Passwort</string>
+    <string name="unabletoconnect_text">Die Verbindung zum Server kann nicht hergestellt werden</string>
+    <string name="unabletoconnectcache_text">Die Verbindung zum Server kann nicht hergestellt werden. Versuch, vom Cache zu laden.</string>
+
+    <string name="zero_text">0</string>
+    <string name="one_text">1</string>
+    <string name="two_text">2</string>
+    <string name="three_text">3</string>
+    <string name="four_text">4</string>
+    <string name="five_text">5</string>
+    <string name="six_text">6</string>
+
+    <string name="shopname_placeholder">&#060;Laden Name&#062;</string>
+    <string name="shopcategory_placeholder">&#060;Einkaufstasche&#062;</string>
+    <string name="shopdescription_placeholder">&#060;Shop Beschreibung&#062;</string>
+    <string name="contactno_placeholder">&#060;Kontakt&#062;</string>
+    <string name="postalcode_placeholder">&#060;Postleitzahl&#062;</string>
+    <string name="unitno_placeholder">&#060;Stückzahl&#062;</string>
+    <string name="username_placeholder">&#060;Benutzername&#062;</string>
+    <string name="categoryname_placeholder">&#060;Kategoriename&#062;</string>
+
+    <string name="settings_title">Einstellungen</string>
+</resources>

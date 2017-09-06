@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="theme"
+        android:title="Theme"
+        android:entries="@array/settings_themes"
+        android:entryValues="@array/settings_themes_values"
+        android:summary="%s"
+        android:defaultValue="0"/>
+
+    <CheckBoxPreference
+        android:key="autologin"
+        android:title="Auto login"
+        android:defaultValue="true"
+        />
+</PreferenceScreen>

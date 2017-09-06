@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="2.5dp">
+
+            <ImageView
+                android:id="@+id/shop_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="2.5dp"
+                android:layout_weight="0.5"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.5">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/colorWhiteSmoke"
+                    android:padding="10dp"
+                    android:layout_marginBottom="2.5dp">
+
+                    <TextView
+                        android:id="@+id/shop_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shopname_placeholder"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title"/>
+
+                    <TextView
+                        android:id="@+id/shop_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/shopdescription_placeholder"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/colorWhiteSmoke"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_info_outline_black_24dp"
+                            android:layout_gravity="center"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/information_text"
+                            android:gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body2"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_local_phone_black_24dp"/>
+
+                        <TextView
+                            android:id="@+id/shop_contactno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/contactno_placeholder"
+                            android:layout_marginLeft="5dp"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_place_black_24dp"/>
+
+                        <TextView
+                            android:id="@+id/shop_postalcode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/postalcode_placeholder"
+                            android:layout_marginLeft="5dp"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_bookmark_black_24dp"/>
+
+                        <TextView
+                            android:id="@+id/shop_unitno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/unitno_placeholder"
+                            android:layout_marginLeft="5dp"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/shop_callButton"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+                            android:text="@string/call_label"
+                            android:maxLines="1"
+                            android:ellipsize="end"/>
+
+                        <Button
+                            android:id="@+id/shop_locateButton"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:drawableLeft="@drawable/ic_place_black_24dp"
+                            android:text="@string/locate_label"
+                            android:maxLines="1"
+                            android:ellipsize="end"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

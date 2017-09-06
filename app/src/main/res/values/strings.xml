@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Shoplet</string>
+
+    <string name="settings_label">Settings</string>
+    <string name="addshop_label">Add Shop</string>
+    <string name="login_label">Login</string>
+    <string name="registration_label">Registration</string>
+    <string name="account_label">Account</string>
+    <string name="loginregister_label">Login / Register</string>
+    <string name="signout_label">Sign Out</string>
+    <string name="changepassword_label">Change Password</string>
+    <string name="shopname_label">Shop Name</string>
+    <string name="camera_label">Camera</string>
+    <string name="gallery_label">Gallery</string>
+    <string name="call_label">Call</string>
+    <string name="locate_label">Locate</string>
+    <string name="about_label">About</string>
+
+    <string name="username_tag">Username:</string>
+    <string name="password_tag">Password:</string>
+    <string name="image_tag">Image:</string>
+    <string name="name_tag">Name:</string>
+    <string name="contactno_tag">Contact No.:</string>
+    <string name="postalcode_tag">Postal Code: S</string>
+    <string name="unitno_tag">Unit Number: #</string>
+    <string name="category_tag">Category:</string>
+    <string name="description_tag">Description:</string>
+    <string name="currentpassword_tag">Current Password:</string>
+    <string name="newpassword_tag">New Password:</string>
+    <string name="confirmpassword_tag">Confirm Password:</string>
+    <string name="confirmnewpassword_tag">Confirm New Password:</string>
+
+    <string name="notamember_text">Not a member?</string>
+    <string name="signup_u_text"><u>Sign up</u></string>
+    <string name="register_text">Register</string>
+    <string name="selectcategory_text">&#060;Select Category&#062;</string>
+    <string name="information_text">Information</string>
+    <string name="indigo_text">Indigo</string>
+    <string name="red_text">Red</string>
+    <string name="purple_text">Purple</string>
+    <string name="blue_text">Blue</string>
+    <string name="green_text">Green</string>
+    <string name="amber_text">Amber</string>
+    <string name="bluegrey_text">Blue Grey</string>
+    <string name="requirecamera_text">Access camera permission required</string>
+    <string name="requirestorage_text">Access storage permission required</string>
+    <string name="requirecall_text">Call permission required</string>
+    <string name="invalidpostalcode_text">Invalid Postal Code</string>
+    <string name="normal_text">Normal</string>
+    <string name="hybrid_text">Hybrid</string>
+    <string name="satellite_text">Satellite</string>
+    <string name="terrain_text">Terrain</string>
+    <string name="none_text">None</string>
+    <string name="about_text">DISCLAIMER: This is a school project. Do not use real credentials.\n\nWith Shoplet, you can buy more with less!\nFind stores with bargain prices anytime, anywhere!\nOn your way to work, to school or while waiting in line.\nSimply browse through the categories, find the store you want and make your way there.\nIf you have a hidden gem you want to share, just take a photo, add a description and you\'re done.\nThere\'s always more hidden gems waiting to be found and so many local businesses to be discovered!\nWhat are you waiting for? Start now!</string>
+    <string name="registrationsuccess_text">Registration successful</string>
+    <string name="usernameexists_text">Username already exists</string>
+    <string name="passwordmismatch_text">Passwords do not match</string>
+    <string name="missinginfo_text">Missing information</string>
+    <string name="defaulterror_text">Error: Something went wrong</string>
+    <string name="loginsuccess_text">Login success</string>
+    <string name="unabletologin_text">Unable to login</string>
+    <string name="invalidinfo_text">Error: Invalid information provided</string>
+    <string name="shopadded_text">Shop added</string>
+    <string name="shopnameused_text">Error: Shop name already in use</string>
+    <string name="accountupdated_text">Account Updated</string>
+    <string name="passwordempty_text">Password cannot be empty</string>
+    <string name="wrongpassword_text">Wrong password</string>
+    <string name="unabletoconnect_text">Unable to connect to server</string>
+    <string name="unabletoconnectcache_text">Unable to connect to server. Attempting to load from cache.</string>
+
+    <string name="zero_text">0</string>
+    <string name="one_text">1</string>
+    <string name="two_text">2</string>
+    <string name="three_text">3</string>
+    <string name="four_text">4</string>
+    <string name="five_text">5</string>
+    <string name="six_text">6</string>
+
+    <string name="shopname_placeholder">&#060;Shop Name&#062;</string>
+    <string name="shopcategory_placeholder">&#060;Shop Category&#062;</string>
+    <string name="shopdescription_placeholder">&#060;Shop Description&#062;</string>
+    <string name="contactno_placeholder">&#060;Contact No.&#062;</string>
+    <string name="postalcode_placeholder">&#060;Postal Code&#062;</string>
+    <string name="unitno_placeholder">&#060;Unit No.&#062;</string>
+    <string name="username_placeholder">&#060;Username&#062;</string>
+    <string name="categoryname_placeholder">&#060;Category Name&#062;</string>
+
+    <string name="settings_title">Settings</string>
+</resources>

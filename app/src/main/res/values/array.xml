@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>@string/selectcategory_text</item>
+    </string-array>
+
+    <string-array name="settings_themes">
+        <item>@string/indigo_text</item>
+        <item>@string/red_text</item>
+        <item>@string/purple_text</item>
+        <item>@string/blue_text</item>
+        <item>@string/green_text</item>
+        <item>@string/amber_text</item>
+        <item>@string/bluegrey_text</item>
+    </string-array>
+    <string-array name="settings_themes_values">
+        <item>@string/zero_text</item>
+        <item>@string/one_text</item>
+        <item>@string/two_text</item>
+        <item>@string/three_text</item>
+        <item>@string/four_text</item>
+        <item>@string/five_text</item>
+        <item>@string/six_text</item>
+    </string-array>
+
+    <array name="indigo_colors">
+        <item>@color/indego_100</item>
+        <item>@color/indego_500</item>
+    </array>
+    <array name="red_colors">
+        <item>@color/red_100</item>
+        <item>@color/red_500</item>
+    </array>
+    <array name="purple_colors">
+        <item>@color/purple_100</item>
+        <item>@color/purple_500</item>
+    </array>
+    <array name="blue_colors">
+        <item>@color/blue_100</item>
+        <item>@color/blue_500</item>
+    </array>
+    <array name="green_colors">
+        <item>@color/green_100</item>
+        <item>@color/green_500</item>
+    </array>
+    <array name="amber_colors">
+        <item>@color/amber_100</item>
+        <item>@color/amber_500</item>
+    </array>
+    <array name="bluegrey_colors">
+        <item>@color/bluegrey_100</item>
+        <item>@color/bluegrey_500</item>
+    </array>
+    
+    <string-array name="maptypes">
+        <item>@string/normal_text</item>
+        <item>@string/hybrid_text</item>
+        <item>@string/satellite_text</item>
+        <item>@string/terrain_text</item>
+        <item>@string/none_text</item>
+    </string-array>
+</resources>

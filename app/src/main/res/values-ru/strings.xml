@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shoplet</string>
+
+    <string name="settings_label">настройки</string>
+    <string name="addshop_label">Добавить магазин</string>
+    <string name="login_label">Авторизоваться</string>
+    <string name="registration_label">Постановка на учет</string>
+    <string name="account_label">Счет</string>
+    <string name="loginregister_label">Авторизоваться / регистр</string>
+    <string name="signout_label">Выход</string>
+    <string name="changepassword_label">Изменить пароль</string>
+    <string name="shopname_label">Имя Магазина</string>
+    <string name="camera_label">камера</string>
+    <string name="gallery_label">Галерея</string>
+    <string name="call_label">Anruf</string>
+    <string name="locate_label">Lokalisieren</string>
+    <string name="about_label">Около</string>
+
+    <string name="username_tag">Имя пользователя:</string>
+    <string name="password_tag">пароль:</string>
+    <string name="image_tag">Образ:</string>
+    <string name="name_tag">имя:</string>
+    <string name="contactno_tag">Контактный номер:</string>
+    <string name="postalcode_tag">Почтовый индекс: S</string>
+    <string name="unitno_tag">Количество Единица: #</string>
+    <string name="category_tag">категория:</string>
+    <string name="description_tag">Описание:</string>
+    <string name="currentpassword_tag">текущий пароль:</string>
+    <string name="newpassword_tag">новый пароль:</string>
+    <string name="confirmpassword_tag">Подтвердите Пароль:</string>
+    <string name="confirmnewpassword_tag">Подтвердите новый пароль:</string>
+
+    <string name="notamember_text">Вы не зарегистрированы?</string>
+    <string name="signup_u_text"><u>зарегистрироваться</u></string>
+    <string name="register_text">регистр</string>
+    <string name="selectcategory_text">&#060;выберите категорию&#062;</string>
+    <string name="information_text">Информация</string>
+    <string name="indigo_text">Индиго</string>
+    <string name="red_text">красный</string>
+    <string name="purple_text">Пурпурный</string>
+    <string name="blue_text">синий</string>
+    <string name="green_text">зеленый</string>
+    <string name="amber_text">янтарный</string>
+    <string name="bluegrey_text">Синий Серый</string>
+    <string name="requirecamera_text">Требуется разрешение камеры доступа</string>
+    <string name="requirestorage_text">Требуется разрешение доступа для хранения</string>
+    <string name="requirecall_text">требуется разрешение вызовов</string>
+    <string name="invalidpostalcode_text">Неверный почтовый индекс</string>
+    <string name="normal_text">Нормальный</string>
+    <string name="hybrid_text">Гибридный</string>
+    <string name="satellite_text">спутник</string>
+    <string name="terrain_text">местность</string>
+    <string name="none_text">Никто</string>
+    <string name="about_text">ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ: Это школьный проект. Не используйте реальные учетные данные.\n\nС Shoplet вы можете купить больше с меньшим количеством!\nНайдите магазины со скидкой в ​​любое время и в любом месте!\nПо дороге на работу, в школу или во время ожидания в очереди.\nПросто просмотрите категории, найдите нужный магазин и пройдите туда.\nЕсли у вас есть скрытый камень, который вы хотите поделиться, просто сделайте снимок, добавьте описание, и все готово.\nТам всегда есть более скрытые драгоценные камни, ожидающие своего обнаружения, и так много местных предприятий, которые будут обнаружены!\nЧего же ты ждешь? Начать сейчас!</string>
+    <string name="registrationsuccess_text">Регистрация прошла успешно</string>
+    <string name="usernameexists_text">Имя пользователя уже занято</string>
+    <string name="passwordmismatch_text">Пароли не совпадают</string>
+    <string name="missinginfo_text">Недостающая информация</string>
+    <string name="defaulterror_text">Ошибка: Что-то пошло не так</string>
+    <string name="loginsuccess_text">Войти успех</string>
+    <string name="unabletologin_text">Невозможно войти</string>
+    <string name="invalidinfo_text">Ошибка: недопустимый информация</string>
+    <string name="shopadded_text">магазин добавил</string>
+    <string name="shopnameused_text">Ошибка: Интернет-магазин уже используется</string>
+    <string name="accountupdated_text">Счет Обновлено</string>
+    <string name="passwordempty_text">Пароль не может быть пустым</string>
+    <string name="wrongpassword_text">Неправильный пароль</string>
+    <string name="unabletoconnect_text">Невозможно подключиться к серверу</string>
+    <string name="unabletoconnectcache_text">Невозможно подключиться к серверу. Попытка загрузить из кэша.</string>
+
+    <string name="zero_text">0</string>
+    <string name="one_text">1</string>
+    <string name="two_text">2</string>
+    <string name="three_text">3</string>
+    <string name="four_text">4</string>
+    <string name="five_text">5</string>
+    <string name="six_text">6</string>
+
+    <string name="shopname_placeholder">&#060;Имя Магазина&#062;</string>
+    <string name="shopcategory_placeholder">&#060;магазин Категория&#062;</string>
+    <string name="shopdescription_placeholder">&#060;магазин Описание&#062;</string>
+    <string name="contactno_placeholder">&#060;Контактный номер&#062;</string>
+    <string name="postalcode_placeholder">&#060;Почтовый индекс&#062;</string>
+    <string name="unitno_placeholder">&#060;Количество Единица&#062;</string>
+    <string name="username_placeholder">&#060;Имя пользователя&#062;</string>
+    <string name="categoryname_placeholder">&#060;Категория Название&#062;</string>
+
+    <string name="settings_title">настройки</string>
+</resources>
