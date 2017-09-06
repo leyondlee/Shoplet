@@ -536,6 +536,7 @@ public class AppUtil {
     public void cacheCategories(Context context, ArrayList<Category> categories) {
         DBHelper dbHelper = new DBHelper(context);
         SQLiteDatabase sqLiteDatabase = dbHelper.getWritableDatabase();
+
         sqLiteDatabase.delete(CATEGORY_TABLE_NAME,null,null);
 
         for (Category category : categories) {
@@ -546,6 +547,7 @@ public class AppUtil {
             sqLiteDatabase.insertOrThrow(CATEGORY_TABLE_NAME, null, values);
         }
 
+        sqLiteDatabase.close();
         dbHelper.close();
     }
 
@@ -576,6 +578,7 @@ public class AppUtil {
         values.put(SHOP_DESCRIPTION,description);
         sqLiteDatabase.insertOrThrow(SHOP_TABLE_NAME,null,values);
 
+        sqLiteDatabase.close();
         dbHelper.close();
     }
 

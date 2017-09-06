@@ -149,8 +149,8 @@ public class WebUtil {
                 }
 
                 DBHelper dbHelper = new DBHelper(context);
-                SQLiteDatabase db = dbHelper.getReadableDatabase();
-                Cursor cursor = db.query(CATEGORY_TABLE_NAME,new String[] {CATEGORY_NAME},null,null,null,null,CATEGORY_ORDER_BY);
+                SQLiteDatabase sqLiteDatabase = dbHelper.getReadableDatabase();
+                Cursor cursor = sqLiteDatabase.query(CATEGORY_TABLE_NAME,new String[] {CATEGORY_NAME},null,null,null,null,CATEGORY_ORDER_BY);
 
                 ArrayList<Category> categories = new ArrayList<Category>();
                 while (cursor.moveToNext()) {
@@ -163,6 +163,8 @@ public class WebUtil {
 
                 appUtil.createCategoryRows(context,categories,container,layoutresource);
 
+                cursor.close();
+                sqLiteDatabase.close();
                 dbHelper.close();
             }
         };
@@ -361,6 +363,8 @@ public class WebUtil {
                     shops.add(shop);
                 }
 
+                cursor.close();
+                sqLiteDatabase.close();
                 dbHelper.close();
 
                 appUtil.createShopRows(context,listView,shops);
@@ -418,6 +422,8 @@ public class WebUtil {
                     appUtil.openShopPage(context,shop);
                 }
 
+                cursor.close();
+                sqLiteDatabase.close();
                 dbHelper.close();
 
                 if (tempPD != null) {
