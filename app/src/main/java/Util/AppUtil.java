@@ -28,6 +28,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
+
 import mapp.teamkcl.shoplet.About;
 import mapp.teamkcl.shoplet.Account;
 import mapp.teamkcl.shoplet.AddShop;
@@ -251,7 +253,7 @@ public class AppUtil {
             ByteArrayOutputStream os = new ByteArrayOutputStream();
             bitmap.compress(Bitmap.CompressFormat.JPEG, 100, os);
 
-            if (bitmap != null && !bitmap.isRecycled()) {
+            if (!bitmap.isRecycled()) {
                 bitmap.recycle();
             }
 
@@ -423,14 +425,18 @@ public class AppUtil {
             nameTV.setText(category.getName());
 
             WebUtil webUtil = new WebUtil();
-            String URL = webUtil.getUrlServlet("GetCategoryImage");
+            String url = webUtil.getUrlServlet("GetCategoryImage");
             if (!name.equals("All Categories")) {
                 Map<String,String> params = new HashMap<>();
                 params.put("category",name);
-                URL = webUtil.addParametersToURL(URL,params);
+                url = webUtil.addParametersToURL(url,params);
             }
 
-            Glide.with(context).load(URL).placeholder(R.drawable.categoryimage_loading).error(R.drawable.categoryimage_placeholder).into(imageView);
+            RequestOptions requestOptions = new RequestOptions()
+                    .placeholder(R.drawable.categoryimage_loading)
+                    .error(R.drawable.categoryimage_placeholder);
+
+            Glide.with(context).load(url).apply(requestOptions).into(imageView);
         }
 
         if (size % 2 == 1) {

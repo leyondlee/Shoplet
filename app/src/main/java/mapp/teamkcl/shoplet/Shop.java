@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -63,11 +64,16 @@ public class Shop extends AppCompatActivity implements OnClickListener {
         unitnoET.setText(shop.getUnitno());
 
         //Craft URL for shop image and load with Glide
-        String URL = webUtil.getUrlServlet("GetShopImage");
+        String url = webUtil.getUrlServlet("GetShopImage");
         Map<String,String> params = new HashMap<>();
         params.put("name",shop.getName());
-        URL = webUtil.addParametersToURL(URL,params);
-        Glide.with(this).load(URL).placeholder(R.drawable.shopimage_loading).error(R.drawable.shopimage_placeholder).into(imageView);
+        url = webUtil.addParametersToURL(url,params);
+
+        RequestOptions requestOptions = new RequestOptions()
+                .placeholder(R.drawable.shopimage_loading)
+                .error(R.drawable.shopimage_placeholder);
+
+        Glide.with(this).load(url).apply(requestOptions).into(imageView);
 
         Button callButton = (Button) findViewById(R.id.shop_callButton);
         callButton.setOnClickListener(this);

@@ -2,13 +2,85 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="C:\Users\Leyond\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\gifdecoder\4.0.0\47c487cc4e64e6ab127a517669ca9a7b49f8c61d\gifdecoder-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47c487cc4e64e6ab127a517669ca9a7b49f8c61d">
+        <dex dex="C:\Users\Leyond\Documents\GitHub\Shoplet\app\build\intermediates\pre-dexed\release\gifdecoder-4.0.0_91dc5f7829300ac3222c22c463313092c1014da0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Leyond\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\4.0.0\dff931af436f0a2815d0109ab2258bbce2d6275d\glide-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dff931af436f0a2815d0109ab2258bbce2d6275d">
+        <dex dex="C:\Users\Leyond\Documents\GitHub\Shoplet\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-4.0.0_25d20c00a71e392170b20e706348e7e75a23bf92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Leyond\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\annotations\4.0.0\f80192e6fd828d41c7da6f3552b0bef5d89cb26e\annotations-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f80192e6fd828d41c7da6f3552b0bef5d89cb26e">
+        <dex dex="C:\Users\Leyond\Documents\GitHub\Shoplet\app\build\intermediates\transforms\dex\debug\folders\1000\10\annotations-4.0.0_a6a3b50d3c9e9e9d75ee15b37ea24131e6b1c4fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Leyond\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\gifdecoder\4.0.0\47c487cc4e64e6ab127a517669ca9a7b49f8c61d\gifdecoder-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47c487cc4e64e6ab127a517669ca9a7b49f8c61d">
+        <dex dex="C:\Users\Leyond\Documents\GitHub\Shoplet\app\build\intermediates\transforms\dex\debug\folders\1000\10\gifdecoder-4.0.0_91dc5f7829300ac3222c22c463313092c1014da0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leyond\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\4.0.0\dff931af436f0a2815d0109ab2258bbce2d6275d\glide-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dff931af436f0a2815d0109ab2258bbce2d6275d">
+        <dex dex="C:\Users\Leyond\Documents\GitHub\Shoplet\app\build\intermediates\pre-dexed\release\glide-4.0.0_25d20c00a71e392170b20e706348e7e75a23bf92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leyond\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\annotations\4.0.0\f80192e6fd828d41c7da6f3552b0bef5d89cb26e\annotations-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f80192e6fd828d41c7da6f3552b0bef5d89cb26e">
+        <dex dex="C:\Users\Leyond\Documents\GitHub\Shoplet\app\build\intermediates\pre-dexed\release\annotations-4.0.0_a6a3b50d3c9e9e9d75ee15b37ea24131e6b1c4fd.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\Leyond\Documents\GitHub\Shoplet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="e3df140e91935baddcd4e88a411f9ac3de2d99f0">
+        sha1="55156391560348d0e3dd7a13f991ad9d7187fd86">
         <dex dex="C:\Users\Leyond\Documents\GitHub\Shoplet\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_66921ff3322d59186983ee456f5b3044e3965a4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Leyond\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\disklrucache\4.0.0\d88059003509074dd59fa226c822724bcf5ec0ca\disklrucache-4.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d88059003509074dd59fa226c822724bcf5ec0ca">
+        <dex dex="C:\Users\Leyond\Documents\GitHub\Shoplet\app\build\intermediates\transforms\dex\debug\folders\1000\10\disklrucache-4.0.0_6618dcf2a97c82068e1bc6cc4dd9e7b6c1f72db6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leyond\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\disklrucache\4.0.0\d88059003509074dd59fa226c822724bcf5ec0ca\disklrucache-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d88059003509074dd59fa226c822724bcf5ec0ca">
+        <dex dex="C:\Users\Leyond\Documents\GitHub\Shoplet\app\build\intermediates\pre-dexed\release\disklrucache-4.0.0_6618dcf2a97c82068e1bc6cc4dd9e7b6c1f72db6.jar" />
     </item>
     <item
         is-multidex="true"

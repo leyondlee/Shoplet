@@ -1,7 +1,9 @@
 package Adapter;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,9 +13,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.resource.drawable.GlideDrawable;
+import com.bumptech.glide.load.DataSource;
+import com.bumptech.glide.load.engine.GlideException;
 import com.bumptech.glide.request.RequestListener;
+import com.bumptech.glide.request.RequestOptions;
 import com.bumptech.glide.request.target.Target;
+
 import mapp.teamkcl.shoplet.R;
 
 import java.util.ArrayList;
@@ -80,22 +85,23 @@ public class ShopRowAdapter extends ArrayAdapter<Shop> {
 
         //Crafting URL request and loading image with Glide
         WebUtil webUtil = new WebUtil();
-        String URL = webUtil.getUrlServlet("GetShopImage");
+        String url = webUtil.getUrlServlet("GetShopImage");
         Map<String,String> params = new HashMap<>();
         params.put("name",name);
-        URL = webUtil.addParametersToURL(URL,params);
-        Glide.with(context).load(URL).placeholder(R.drawable.shopimage_loading).error(R.drawable.shopimage_placeholder).listener(new RequestListener<String, GlideDrawable>() {
+        url = webUtil.addParametersToURL(url,params);
+
+        RequestOptions requestOptions = new RequestOptions()
+                .placeholder(R.drawable.shopimage_loading)
+                .error(R.drawable.shopimage_placeholder);
+
+        RequestListener<Drawable> requestListener = new RequestListener<Drawable>() {
             @Override
-            public boolean onException(Exception e, String model, Target<GlideDrawable> target, boolean isFirstResource) {
+            public boolean onLoadFailed(@Nullable GlideException e, Object model, Target<Drawable> target, boolean isFirstResource) {
                 return false;
             }
 
             @Override
-            public boolean onResourceReady(GlideDrawable resource, String model, Target<GlideDrawable> target, boolean isFromMemoryCache, boolean isFirstResource) {
-                /*
-                    Calculates max no. of lines possible to be displayed
-                 */
-
+            public boolean onResourceReady(Drawable resource, Object model, Target<Drawable> target, DataSource dataSource, boolean isFirstResource) {
                 LinearLayout linearLayout = (LinearLayout) imageView.getParent();
                 int padding = linearLayout.getPaddingTop();
                 int imageHeight = resource.getIntrinsicHeight();
@@ -120,7 +126,9 @@ public class ShopRowAdapter extends ArrayAdapter<Shop> {
 
                 return false;
             }
-        }).into(viewHolder.imageView);
+        };
+
+        Glide.with(context).load(url).apply(requestOptions).listener(requestListener).into(viewHolder.imageView);
 
         //Set shop name and description
         viewHolder.nameTV.setText(name);
