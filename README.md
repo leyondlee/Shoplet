@@ -1,4 +1,4 @@
-# MAPP_Shoplet (Team KCL)
+# Shoplet (Team KCL)
 
 Group members:<br>
 Kee Zhong Yi<br>
